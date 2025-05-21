@@ -27,7 +27,7 @@ export default function Login({ onLogin }) {
           </svg>
           <input
             autoComplete="off"
-            placeholder="El usuario"
+            placeholder="Usuario"
             className="input-field"
             type="text"
             value={username}
@@ -46,7 +46,7 @@ export default function Login({ onLogin }) {
             <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"></path>
           </svg>
           <input
-            placeholder="La contraseña"
+            placeholder="Contraseña"
             className="input-field"
             type="password"
             value={password}
@@ -57,7 +57,22 @@ export default function Login({ onLogin }) {
           <button className="button1" type="submit">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </button>
-          <button className="button2" type="button">Sign Up</button>
+          <button
+            className="button2"
+            type="button"
+            onClick={() => {
+              const url = "https://www.youtube.com/watch?v=nMqnl6ntfWE";
+              const width = screen.availWidth;
+              const height = screen.availHeight;
+              window.open(
+                url,
+                "_blank",
+                `toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=${width},height=${height},top=0,left=0`
+              );
+            }}
+          >
+            Sign Up
+          </button>
         </div>
       </form>
     </div>

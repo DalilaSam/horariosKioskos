@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #866F4E;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -52,6 +52,15 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+button {
+  color: #CAB9A0;
+  background-color: #372E20;
+}
+
+h1{
+  color: #CAB9A0
 }
 
 @media (prefers-color-scheme: light) {

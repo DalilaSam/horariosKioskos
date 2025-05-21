@@ -48,20 +48,20 @@
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 0.4em;
-  background-color: #171717;
+  background-color: #6A573B;
   border-radius: 25px;
   transition: .4s ease-in-out;
 }
 
 .form:hover {
   transform: scale(1.05);
-  border: 1px solid black;
+  border: 1px solid #372E20;
 }
 
 #heading {
   text-align: center;
   margin: 2em;
-  color: rgb(255, 255, 255);
+  color: #CAB9A0;
   font-size: 1.2em;
 }
 
@@ -74,15 +74,15 @@
   padding: 0.6em;
   border: none;
   outline: none;
-  color: white;
-  background-color: #171717;
+  color: #CAB9A0;
+  background-color: #372E20;
   box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
 }
 
 .input-icon {
   height: 1.3em;
   width: 1.3em;
-  fill: white;
+  fill: #CAB9A0;
 }
 
 .input-field {
@@ -90,7 +90,7 @@
   border: none;
   outline: none;
   width: 100%;
-  color: #d3d3d3;
+  color: #CAB9A0;
 }
 
 .form .btn {
@@ -110,13 +110,13 @@
   border: none;
   outline: none;
   transition: .4s ease-in-out;
-  background-color: #252525;
-  color: white;
+  background-color: #372E20;
+  color: #CAB9A0;
 }
 
 .button1:hover {
   background-color: black;
-  color: white;
+  color: #CAB9A0;
 }
 
 .button2 {
@@ -127,13 +127,13 @@
   border: none;
   outline: none;
   transition: .4s ease-in-out;
-  background-color: #252525;
-  color: white;
+  background-color: #372E20;
+  color: #CAB9A0;
 }
 
 .button2:hover {
   background-color: black;
-  color: white;
+  color: #CAB9A0;
 }
 
 .button3 {
@@ -143,19 +143,47 @@
   border: none;
   outline: none;
   transition: .4s ease-in-out;
-  background-color: #252525;
-  color: white;
+  background-color: #372E20;
+  color: #CAB9A0;
 }
 
 .button3:hover {
   background-color: red;
-  color: white;
+  color: #CAB9A0;
 }
+
+.principal{
+  background-color: #6A573B;
+  padding: 3em;
+  border-radius: 1em;
+}
+.turno{
+  border-bottom: 1px solid #CAB9A0;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .horarios{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
   margin: 2vh;
-  width: 25vw;
+  width: 87%;
 
+}
+.timeInput{
+  color: #CAB9A0;
+  background-color: #372E20;
+  border: none;
+  padding: 2px;
+  border-radius: 5px;
+}
+.selectKiosko{
+  background-color: #372E20;
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+  color: #CAB9A0;
 }

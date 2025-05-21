@@ -48,7 +48,7 @@ const handleGuardar = () => {
     <div>
       <div className='kioskos'>
         <h1>Tarde</h1>
-        <select name="kiosko" id="">
+        <select className="selectKiosko" name="kiosko" id="">
           <option value="default">Seleccione kiosko</option>
           <option value="kiosko1">Kiosko edificio principal</option>
           <option value="kiosko2">Ni idea de donde está</option>
@@ -56,6 +56,7 @@ const handleGuardar = () => {
         </select>
         <div className='horarios'>
           <input
+            className="timeInput"
             type="time"
             value={encendido}
             onChange={e => setEncendido(e.target.value)}
@@ -63,6 +64,7 @@ const handleGuardar = () => {
             max="22:45"
           />
           <input
+            className="timeInput"
             type="time"
             value={apagado}
             onChange={e => setApagado(e.target.value)}
